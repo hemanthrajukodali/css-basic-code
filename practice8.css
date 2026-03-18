@@ -1,0 +1,32 @@
+.circular{
+    height:150px;
+    width:150px;
+    border:20px double grey;
+    border-top:20px solid rgb(47, 3, 3);
+    border-radius: 50%;
+}
+.circular2{
+    height:150px;
+    width:150px;
+    border:20px dotted grey;
+    border-top:20px solid rgb(47, 3, 3);
+    border-radius: 50%;
+}
+.circular2 p{
+     text-align: center;
+     padding-top: 30%;
+}
+.load{
+    display: flex;
+    justify-content: center;
+     margin-top: 100px;
+     animation: spin 2s ease-in-out 0s infinite  normal;
+}
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
