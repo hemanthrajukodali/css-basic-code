@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color:azure;
+    margin-right:240px;
+   
+}
+#nav
+{
+    background-color:#0f1111;
+    height:60px;
+   
+    
+}
+button{
+    background-color: #f08804;
+    color:azure;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+     border: 2px double black;
+    background-color:rgba(255,0,0,0.5);
+    display: inline-block;
+    
+    
+}
+#main{
+  height: 625px;
+}
+footer{
+    background-color: #0f1111;
+    color:aliceblue;
+    text-align: center;
+   
+   
+}
